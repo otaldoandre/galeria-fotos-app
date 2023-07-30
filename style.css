@@ -219,7 +219,7 @@ a:hover::after {
 
 
 .btn-add-img {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .navbar {
@@ -248,10 +248,7 @@ i {
 }
 
 .products .container {
-  padding-left: 180px;
-  margin-left: 110px;
-
-
+  padding-left: 6%;
 }
 
 .section-title {

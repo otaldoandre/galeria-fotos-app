@@ -47,8 +47,8 @@
 	
 	img {
 		border-radius: 18px;
-		width: 100vh;
-		height: 640px;
+		width: 150vh;
+		height: 75vh;
 		object-fit: cover;
 	}
 	
