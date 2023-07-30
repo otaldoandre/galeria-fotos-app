@@ -18,7 +18,7 @@
 	* {
 	margin: 0;
 	padding: 0;
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 	
 	
 }
