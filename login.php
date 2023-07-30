@@ -28,7 +28,7 @@
 	background-color: #2B3F66;
 	}
 	
-	h1, label {
+	h1, label, h5 {
 		color: #fff;
 	}
 	
@@ -48,7 +48,7 @@
 	img {
 		border-radius: 18px;
 		width: 100vh;
-		height: 725px;
+		height: 96vh;
 		object-fit: cover;
 	}
 	
@@ -89,6 +89,9 @@
 						<br>
 						
 						<button type="submit" class="btn btn-primary" name="login_user">Entrar</button>
+						<br><br><br><br>
+						<h5> Login: etec </h5>
+						<h5> Senha: rosa </h5>
 					</form>
 				</div>
 			</div>
