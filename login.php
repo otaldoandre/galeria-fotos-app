@@ -105,8 +105,6 @@
 	{
 		$login = $_POST['login'];
 		$senha = $_POST['senha'];
-		
-		
 		$query = "SELECT * FROM usuarios WHERE usuario = '$login' LIMIT 1";
 		$resultado = mysqli_query($conexao, $query) or die(mysqli_error);
 		$usuario = mysqli_fetch_assoc($resultado);
@@ -124,11 +122,6 @@
 			header('location: index.php');
 			
 		}
-		else
-		{
-			echo "Deu cadca";
-		}
-	
 		
 		//"N�o foi poss�vel realizar o login com o e-mail e senha fornecidos. Por favor, verifique os dados e tente novamente."
 		
